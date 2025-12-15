@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family:'Impact';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/Impact/Impact.otf') format('otf');
+  }
+
+  @font-face {
+    font-family:'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/Unbounded/Unbounded-Regular.ttf') format('ttf');
+  }
+}
